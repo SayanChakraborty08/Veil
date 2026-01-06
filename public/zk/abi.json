@@ -1,0 +1,35 @@
+{
+  "inputs": [
+    {
+      "name": "prescription_hash",
+      "public": false,
+      "type": "array",
+      "components": {
+        "size": 8,
+        "type": "u32"
+      }
+    },
+    {
+      "name": "secret_key",
+      "public": false,
+      "type": "u32"
+    },
+    {
+      "name": "doctor_id",
+      "public": false,
+      "type": "u32"
+    },
+    {
+      "name": "public_commitment",
+      "public": true,
+      "type": "array",
+      "components": {
+        "size": 8,
+        "type": "u32"
+      }
+    }
+  ],
+  "output": {
+    "type": "bool"
+  }
+}
